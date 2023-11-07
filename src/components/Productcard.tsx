@@ -29,10 +29,10 @@ const ProductCard = ({prduct}: Iprop) => {
                 <Image classNm="object-buttom w-10 h-10 rounded-full" alt={category.name} imageUrl={category.imageURL}/>
             </div>
             <div className="flex items-center justify-between space-x-2 mt-5">
-                <Buttom className="bg-red-700 w-full"
-                onClick={()=>{alert('ddd')}}
+                <Buttom className="bg-indigo-700 hover:bg-indigo-800"
+                onClick={()=>{}}
                 > EDIT</Buttom>
-                <Buttom className="bg-gray-700"> DELETE</Buttom>
+                <Buttom className="bg-red-700 hover:bg-red-800"> DELETE</Buttom>
 
             </div>
         </div>
